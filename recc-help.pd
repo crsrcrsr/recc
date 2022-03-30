@@ -1,0 +1,8 @@
+#N canvas 548 388 450 300 12;
+#X obj 48 131 recc;
+#X text 256 150 start/stop reccording;
+#X text 49 219 file name;
+#X text 58 90 V audio L and R channel V;
+#X text 58 108 V V;
+#X text 44 49 !! create a folder named "rec" in your Pd main folder
+;

@@ -10,7 +10,7 @@
 #X obj 566 303 +;
 #X obj 568 347 +;
 #X msg 567 381 set \$1;
-#X msg 569 426 190931;
+#X msg 569 426 191805;
 #X obj 476 193 date GMT;
 #X obj 441 235 - 2000;
 #X obj 441 264 * 10000;
@@ -19,7 +19,7 @@
 #X obj 456 407 +;
 #X msg 432 503 set \$1;
 #X obj 451 580 makefilename;
-#X msg 452 679 open -bytes 3 rec/sta-220330-190931.wav;
+#X msg 452 679 open -bytes 3 rec/sta-220330-191805.wav;
 #X symbolatom 496 542 25 0 0 0 - - -;
 #X msg 456 646 set open -bytes 3 \$1;
 #X symbolatom 454 610 25 0 0 0 - - -;
@@ -56,9 +56,9 @@
 #X obj 53 556 s min;
 #X msg 53 522 label \$1;
 #X obj 53 495 makefilename %d;
-#X obj 147 110 cnv 15 40 40 empty sec 8 10 20 0 20 -228856 -66577 0
+#X obj 147 110 cnv 15 40 40 empty sec 0 10 20 0 20 -228856 -66577 0
 ;
-#X obj 189 110 cnv 15 60 40 empty mils 500 10 20 0 20 -228856 -66577
+#X obj 189 110 cnv 15 60 40 empty mils 0 10 20 0 20 -228856 -66577
 0;
 #X msg 169 524 label \$1;
 #X obj 169 497 makefilename %d;
@@ -70,7 +70,7 @@
 #X msg 262 755 0;
 #X msg 709 624 set \$1;
 #X symbolatom 106 158 25 0 0 0 - - -;
-#X msg 751 655 rec/sta-220330-190931.wav;
+#X msg 751 655 rec/sta-220330-191805.wav;
 #X obj 780 726 symbol;
 #X obj 339 661 del 300;
 #X connect 1 0 2 0;
