@@ -1,5 +1,5 @@
 # recc
-Pure Data easy time/date marked stereo audio recorder
+Easy time/date marked stereo audio recorder
 
 Dependencies - zexy (download in Pure Data package manager)
 
